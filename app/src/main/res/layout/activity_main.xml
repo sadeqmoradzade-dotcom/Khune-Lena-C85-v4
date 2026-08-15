@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="خونه لنا" android:textSize="30sp" android:textStyle="bold" android:gravity="center"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="نسخه ۴ — POCO C85" android:gravity="center" android:paddingBottom="15dp"/>
+<EditText android:id="@+id/phoneNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="شماره دستگاه" android:inputType="phone"/>
+<Spinner android:id="@+id/simSpinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/travelButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="✈ سفر — دزدگیر + روشنایی ۱ از ۱۸ تا ۲۴"/>
+<Button android:id="@+id/alarmOn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="فعال کردن دزدگیر"/>
+<Button android:id="@+id/alarmOff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="غیرفعال کردن دزدگیر"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="روشنایی‌ها" android:textSize="18sp" android:textStyle="bold"/>
+<LinearLayout android:id="@+id/lightsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+<Button android:id="@+id/testButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ارسال تست SMS"/>
+<TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="وضعیت: آماده" android:paddingTop="12dp"/>
+</LinearLayout></ScrollView>
